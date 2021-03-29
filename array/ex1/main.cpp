@@ -10,7 +10,7 @@
 int main() {
   // Create a fixed-sized array of 10 primes:
   int values[10] = { 2, 3, 5, 7, 11, 13, 15, 17, 21, 23 };
-   
+   int val[10] = { 2, 3, 5, 7, 11, 13, 15, 17, 21, 25 };
   // Outputs the 4th (index 3) prime:
   std::cout << values[3] << std::endl;
 
